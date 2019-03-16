@@ -11,6 +11,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class AddItem extends AppCompatActivity {
@@ -19,10 +20,7 @@ public class AddItem extends AppCompatActivity {
     RadioGroup radiogroup;
     RadioButton radio_button;
     FirebaseDatabase database;
-
-
-
-
+    DatabaseReference ref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +31,8 @@ public class AddItem extends AppCompatActivity {
         Item_name=findViewById(R.id.editText);
         price = findViewById(R.id.editText2);
         radiogroup=findViewById(R.id.radiogroup);
+        database = FirebaseDatabase.getInstance();
+        ref = database.getReference("ncs");
         final Spinner spinner = findViewById(R.id.spinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(AddItem.this,android.R.layout.simple_expandable_list_item_1,getResources().getStringArray(R.array.Category));
         adapter.setDropDownViewResource(android.R.layout.simple_expandable_list_item_1);
