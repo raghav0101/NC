@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NC</string>
+    <string-array name="Category">
+        <item>Starters</item>
+        <item>Chinese Veg</item>
+        <item>Chinese Non Veg</item>
+        <item>North Indian Veg</item>
+        <item>North Indian Non Veg</item>
+        <item>South Indian Veg</item>
+        <item>South Indian Non Veg</item>
+        <item>Drinks</item>
+    </string-array>
+</resources>
