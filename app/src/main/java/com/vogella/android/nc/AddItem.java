@@ -11,11 +11,16 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
+import com.google.firebase.database.FirebaseDatabase;
+
 public class AddItem extends AppCompatActivity {
     EditText Item_name,price;
     Button button;
     RadioGroup radiogroup;
     RadioButton radio_button;
+    FirebaseDatabase database;
+
+
 
 
 

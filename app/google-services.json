@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "989730534875",
+    "firebase_url": "https://ncfirebaseproject-4c4c3.firebaseio.com",
+    "project_id": "ncfirebaseproject-4c4c3",
+    "storage_bucket": "ncfirebaseproject-4c4c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989730534875:android:562ac5f6d2f4dc39",
+        "android_client_info": {
+          "package_name": "com.vogella.android.nc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989730534875-i3qs49ut2gm23il51227qigkh37hndss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vogella.android.nc",
+            "certificate_hash": "c66f99a9dda59e03cdf36a6555755054fc8bbd07"
+          }
+        },
+        {
+          "client_id": "989730534875-o5ili3esmq923ckpo1uan30hvo4hfah0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQzNz9jZDJhH16vJVvkBY4RiG3PMb4tqU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989730534875-o5ili3esmq923ckpo1uan30hvo4hfah0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
